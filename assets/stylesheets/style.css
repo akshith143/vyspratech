@@ -1,0 +1,597 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+    width: 101%;
+    overflow-x: hidden;
+}
+
+/*main section*/
+
+.main {
+    /*    background: linear-gradient(to left, #02B1FF, #03B1FE, #05B2FF, #12B6FE, #3CC2FF, #4BC7FD);*/
+    background: linear-gradient(to top right, #212121 0%, #000000 100%);
+    height: 700px;
+    width: 100%;
+    background-size: 100% 100%;
+    margin-top: 0%;
+}
+
+.head {
+    padding: 10%;
+    color: #fff;
+}
+
+hr {
+    width: 250px;
+    text-align: center;
+
+}
+
+/*heading tags*/
+
+h1 {
+    color: #fff !important;
+    font-family: 'Roboto', sans-serif;
+    ;
+    font-size: 68px;
+    text-align: center;
+}
+
+h3 {
+    color: #fff !important;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 2%;
+}
+
+h5 {
+    color: #00d1b9 !important;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    text-align: left;
+    padding-top: 2%;
+}
+
+.what_we_do_head {
+    color: #00d1b9 !important;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 2%;
+}
+
+.services_head {
+    color: #000 !important;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 2%;
+}
+
+.service_h4 {
+    color: #000 !important;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    text-align: justify;
+    padding-top: 2%;
+}
+
+.our_work_head {
+    color: #fff !important;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 2%;
+}
+
+/*paragraph tags*/
+
+p {
+    color: #fff !important;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+.what_we_do_details {
+    text-align: justify;
+    color: #747577 !important;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    padding-top: 1%;
+
+}
+
+.service_details {
+    text-align: left;
+    color: #747577 !important;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    padding-top: 1%;
+
+}
+
+.what_we_do_about {
+    text-align: center;
+    color: #747577 !important;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+
+}
+
+
+
+/*what we do*/
+
+.what_we_do {
+    width: 100%;
+    background-image: url('../images/what.jpg');
+    background-size: 100% 100%;
+    margin-top: -2%;
+}
+
+.what_we_do_icons {
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+}
+
+
+#icons {
+    font-size: 40px;
+    padding: 25%;
+    color: #00d1b9;
+}
+
+.icons_div {
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 1px solid #00d1b9;
+}
+
+.what_we_do_table_header {
+    padding: 5%;
+}
+
+/*services*/
+
+#service_icons {
+    font-size: 60px;
+    color: #3383DD;
+}
+
+.ser_table {
+    padding: 5%;
+}
+
+.service_line {
+    border: 0.4px solid #000;
+}
+
+.services,
+li {
+    font-size: 16px;
+}
+
+.services {
+    background-image: url('../images/builtinbg.jpg');
+    margin-top: -2%;
+    padding-bottom: 5%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.ser_head {
+    padding: 5%;
+    padding-top: 30% !important;
+}
+
+.icon_table_head {
+    padding: 5%;
+}
+
+table {
+    text-align: justify;
+}
+
+/*our work*/
+
+.our_work {
+    width: 100%;
+    background-image: url('../images/work.jpg');
+    background-size: 100% 100%;
+    margin-top: -2%;
+}
+
+.portfolio {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    padding-top: 2%;
+}
+
+.port img {
+/*   display:block; */
+}
+.info {
+  position:absolute;
+  width:90%;
+  height:90%;
+  background:rgba(255,255,255,0.5);
+  left:-40px;
+  opacity:0;
+  transition:left 0.3s, opacity 0.3s;
+  padding:20px;
+  margin-left: 5%;
+    margin-top: 1%;
+}
+.port:hover .info {
+  left:0;
+  opacity:1;
+}
+/*we worked with*/
+
+.we_worked_with {
+    widows: 100%;
+    background: linear-gradient(to right, #00d1b9 0%, #00A4A6 100%);
+    margin-top: -2%;
+}
+
+/*testimonials*/
+
+.testimonial {
+    background: url('../images/main.jpg');
+    background-attachment: fixed;
+    width: 100%;
+    max-height: 100%;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 5%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+/*
+.test_overlay {
+    background: rgba(55, 45, 65, 0.7);
+    width: 100%;
+    height: 100%;
+    margin-bottom: -4.2%;
+}
+*/
+
+/*end of testimonials*/
+
+form input {
+    height: 50px;
+    border-bottom: 1px solid grey !important;
+    border: 0px solid transparent;
+    background: transparent;
+    color: #000;
+}
+
+/*footer*/
+
+footer.nb-footer {
+    background: #F0F0F0;
+    border-top: 4px solid #3383DD;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 0%;
+}
+
+footer.nb-footer .about {
+    margin: 0 auto;
+    margin-top: 40px;
+    max-width: 1170px;
+    text-align: center;
+}
+
+footer.nb-footer .about p {
+    font-size: 20px;
+    color: #999;
+    margin-top: 30px;
+}
+
+footer.nb-footer .about .social-media {
+    margin-top: 15px;
+}
+
+footer.nb-footer .about .social-media ul li a {
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 50%;
+    font-size: 16px;
+    color: #3383DD !important;
+    border: 1px solid #3383DD;
+}
+
+footer.nb-footer .about .social-media ul li a:hover {
+    background: #3383DD !important;
+    color: #fff !important;
+    border-color: #3383DD;
+}
+
+footer.nb-footer .footer-info-single {
+    margin-top: 30px;
+}
+
+footer.nb-footer .footer-info-single .title {
+    color: #aaa;
+    text-transform: uppercase;
+    font-size: 16px;
+    border-left: 4px solid #3383DD;
+    padding-left: 5px;
+}
+
+footer.nb-footer .footer-info-single ul li a {
+    display: block;
+    color: #aaa !important;
+    padding: 2px 0;
+    font-size: 16px;
+}
+
+footer.nb-footer .footer-info-single ul li a:hover {
+    color: #3383DD;
+}
+
+footer.nb-footer .footer-info-single p {
+    font-size: 13px;
+    line-height: 20px;
+    color: #aaa;
+}
+
+footer.nb-footer .copyright {
+    margin-top: 15px;
+    background: #272727;
+    padding: 7px 0;
+    color: #999;
+    text-align: center;
+}
+
+footer.nb-footer .copyright p {
+    margin: 0;
+    padding: 0;
+}
+
+#footer_logo {
+    width: 150px;
+    height: 150px;
+}
+
+.footer_about {
+    text-align: justify;
+    font-size: 14px !important;
+    color: #797979 !important;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*end of footer*/
+
+/*media queries*/
+
+/*for screen less than 760px*/
+
+@media only screen and (max-width: 768px) {
+    /*main heading*/
+    .main {
+        background: linear-gradient(to left, #000001, #000002, #000003, #000004, #000005, #000006);
+        height: 700px;
+        width: 106%;
+        background-size: 100% 100%;
+        margin-top: -16%;
+    }
+    .head {
+        padding-top: 35%;
+        color: #fff;
+        margin-left: -10%;
+    }
+
+    hr {
+        width: 250px;
+        text-align: center;
+
+    }
+
+    /*heading tags*/
+    h1 {
+        color: #fff !important;
+        font-family: 'Roboto', sans-serif;
+        font-size: 38px;
+        text-align: center;
+    }
+
+    h3 {
+        color: #fff !important;
+        font-family: 'Roboto', sans-serif;
+        font-size: 25px;
+        text-align: center;
+        padding-top: 2%;
+    }
+
+    h5 {
+        color: #00d1b9 !important;
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        text-align: left;
+        padding-top: 2%;
+    }
+
+    .what_we_do_head {
+        color: #00d1b9 !important;
+        font-family: 'Roboto', sans-serif;
+        font-size: 25px;
+        text-align: center;
+        padding-top: 3%;
+    }
+
+    .services_head {
+        color: #000 !important;
+        font-family: 'Roboto', sans-serif;
+        font-size: 25px;
+        text-align: center;
+        padding-top: 2%;
+    }
+    .service_h4 {
+        color: #000000 !important;
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        text-align: center;
+        padding-top: 2%;
+    }
+
+    .our_work_head {
+        color: #000 !important;
+        font-family: 'Roboto', sans-serif;
+        font-size: 25px;
+        text-align: center;
+        padding-top: 2%;
+    }
+
+    /*what we do*/
+    .what_we_do {
+        width: 106%;
+        background-image: url('../images/what.jpg');
+        background-size: 100% 100%;
+        margin-top: -6%;
+    }
+
+    .what_we_do_icons {
+        padding-top: 5%;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-bottom: 5%;
+    }
+
+
+    #icons {
+        font-size: 40px;
+        padding: 26%;
+        color: #00d1b9;
+    }
+
+    .icons_div {
+        width: 100px;
+        height: 100px;
+        background-color: transparent;
+        border-radius: 50%;
+        border: 1px solid #00d1b9;
+    }
+
+    .what_we_do_table_header {
+        padding: 5%;
+    }
+
+    /*services*/
+    #service_icons {
+        font-size: 60px;
+        color: #3383DD;
+    }
+
+    .ser_table {
+        padding: 5%;
+    }
+
+    .service_line {
+        border: 0.4px solid #000;
+    }
+
+    .services,
+    li {
+        font-size: 16px;
+    }
+
+    .services {
+        background-image: url('../images/builtinbg.jpg');
+        margin-top: -6%;
+        padding-bottom: 5%;
+        width: 106%;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+
+    .ser_head {
+        padding: 5%;
+        padding-top: 30% !important;
+    }
+    .span {
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        text-align: center;
+        padding-top: 0.4%;
+        margin-top: 2%;
+        margin-left: 90%;
+    }
+
+    /*our work*/
+    .our_work {
+        width: 106%;
+        background-image: url('../images/work.jpg');
+        background-size: 100% 100%;
+        margin-top: -2%;
+    }
+
+    .portfolio {
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-bottom: 5%;
+        padding-top: 2%;
+    }
+    /*we worked with*/
+    .we_worked_with {
+        width: 106%;
+        background: linear-gradient(to right, #00d1b9 0%, #027373 100%);
+        background-size: 100% 100%;
+        margin-top: -5%;
+    }
+    /*testimonials*/
+    .testimonial {
+        background: url('../images/main.jpg');
+        background-attachment: fixed;
+        width: 106%;
+        max-height: 100%;
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        padding-bottom: 5%;
+    }
+    /*footer*/
+    footer.nb-footer {
+        background: #F0F0F0;
+        border-top: 4px solid #3383DD;
+        font-family: 'Roboto', sans-serif;
+        margin-top: 0%;
+        width: 106%;
+    }
+    /*paragraph tags*/
+    p {
+        color: #fff !important;
+        font-family: 'Roboto', sans-serif;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .what_we_do_details {
+        text-align: justify;
+        color: #747577 !important;
+        font-family: 'Roboto', sans-serif;
+        font-size: 12px;
+        padding-top: 1%;
+
+    }
+
+    .service_details {
+        text-align: left;
+        color: #747577 !important;
+        font-family: 'Roboto', sans-serif;
+        font-size: 12px;
+        padding-top: 1%;
+
+    }
+
+}

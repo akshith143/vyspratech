@@ -1,0 +1,50 @@
+.testimonial .lead {
+    padding-top: 5%;
+    line-height: 2em;
+    /* means 2 times page font(default 16px) = 32px */
+    margin-bottom: 10px;
+    /* overriding Bootstrap lead p margin */
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.testimonial span {
+    font-weight: bold;
+    font-size: 18px;
+    color: #fff;
+}
+
+.testimonial .carousel-inner {
+    min-height: 160px;
+}
+
+.testimonial .carousel-indicators {
+    /* overriding Bootstrap styles*/
+    position: static;
+    width: 100%;
+    margin-left: auto;
+}
+
+.testimonial .carousel-indicators li {
+    /* overriding Bootstrap styles*/
+    text-indent: 0;
+    /* because we will use images */
+    width: 80px;
+    height: 80px;
+    opacity: .5;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 5px;
+    transition: all .5s ease-in-out;
+    padding: 2px;
+}
+
+.testimonial .carousel-indicators li.active {
+    opacity: 1;
+    background: none;
+    /* to remove white background */
+}
+
+.testimonial .carousel-indicators li img {
+    max-width: 100%;
+}
